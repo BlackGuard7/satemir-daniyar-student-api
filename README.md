@@ -8,3 +8,5 @@
 
 ## Project Description
 This is a Spring Boot CRUD application containerized with Docker and automated via Jenkins CI/CD.
+
+Testing automation
