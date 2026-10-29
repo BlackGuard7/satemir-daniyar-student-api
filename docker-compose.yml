@@ -19,6 +19,7 @@ services:
 
   app:
     build: .
+    image: satemir-daniyar-student-api:v1.0-daniyar-satemir
     container_name: satemir-daniyar-app
     ports:
       - "8080:8080"

@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running automated tests...'
-                echo 'Tests passed successfully (Skipped DB connection for CI)'
+                sh './gradlew test'
             }
         }
         
