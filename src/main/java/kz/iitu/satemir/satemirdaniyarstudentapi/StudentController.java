@@ -1,5 +1,7 @@
 package kz.iitu.satemir.satemirdaniyarstudentapi;
 
+// CRUD operations implemented by Daniyar Satemir
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
