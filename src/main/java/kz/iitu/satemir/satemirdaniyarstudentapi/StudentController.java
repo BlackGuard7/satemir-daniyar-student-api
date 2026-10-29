@@ -23,7 +23,7 @@ public class StudentController {
 
     @GetMapping
     public List<Student> getAll() {
-        return repository.findAll();
+        return repository.findAll()
     }
 
     @PostMapping
